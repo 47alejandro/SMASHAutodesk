@@ -1,2 +1,0 @@
-# SMASHAutodesk
-SMASHAutodesk Project
