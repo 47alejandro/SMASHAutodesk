@@ -1,0 +1,32 @@
+import SwiftUI
+struct Tittle: LabelStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        HStack {
+            configuration.icon
+                .frame(width: 50)
+                .background(.quaternary, in: Circle())
+            
+            configuration.title
+            
+            Spacer()
+        }
+    }
+}
+
+struct Tittle_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack {
+            Image("download-1")
+            
+            Button("Username") {
+                
+            }
+            Button("Password") {
+                
+            }
+            Button("Employee ID") {
+                
+            }
+        }
+    }
+}
